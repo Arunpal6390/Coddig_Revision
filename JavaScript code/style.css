@@ -1,15 +1,9 @@
-* {
-  margin: 0;
-}
-
-body {
-  background-color: rgb(180, 215, 216);
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(94, 181, 184);
+  border: 1px solid rgb(31, 12, 12);
+  border-radius: 10px;
   text-align: center;
-  text-decoration: underline;
-}
-h1 {
-  color: rgb(13, 3, 3);
-}
-p1 {
-  font-size: 20px;
+  color: darkslategrey;
 }
