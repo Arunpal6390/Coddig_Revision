@@ -3,5 +3,13 @@
 }
 
 body {
-  background-color: rgb(122, 216, 219);
+  background-color: rgb(180, 215, 216);
+  text-align: center;
+  text-decoration: underline;
+}
+h1 {
+  color: rgb(13, 3, 3);
+}
+p1 {
+  font-size: 20px;
 }
