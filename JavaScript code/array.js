@@ -127,9 +127,11 @@ console.log(brr);
 //   return a - b;//accending order,b-a decending order
 // });
 // console.log(arr);
-let arr = [33, -44, 6, -7, -2, 9];
-// arr = arr.sort();
-console.log(arr);
+// let arr = [33, -44, 6, -7, -2, 9];
+// // arr = arr.sort();
+// console.log(arr);
 
-arr = arr.sort((a, b) => a - b);
-console.log(arr);
+// arr = arr.sort((a, b) => a - b);
+// console.log(arr);
+
+//DOM Document object model.
