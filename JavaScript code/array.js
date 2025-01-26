@@ -134,4 +134,81 @@ console.log(brr);
 // arr = arr.sort((a, b) => a - b);
 // console.log(arr);
 
+//let age = [88, 40, 15, 18, 19, 25, 22, 23, 28, 27];
+// for (let i = 0; i < age.length; i++) {
+//   if (age[i] > 20) {
+//     console.log(age[i]);
+//   }
+// }
+
+// const ages = age.filter(function (age) {
+//   if (age > 20) {
+//     return true;
+//   }
+// });
+// console.log(ages);
+
+// const finalage = age.filter((ages) => ages >= 20);
+// console.log(finalage);
+
+const companyes = [
+  { name: "Google", cotegory: "product based", start: 1999, end: 2024 },
+  { name: "Amazon", cotegory: "product based", start: 1992, end: 2008 },
+  { name: "Ubar", cotegory: "product based", start: 1994, end: 2000 },
+  { name: "TCS", cotegory: "service based", start: 1998, end: 2001 },
+  { name: "Paytm", cotegory: "product based", start: 1989, end: 2010 }
+];
+
+// const ans = companyes.filter(function (company) {
+//   if (company.cotegory === "service based") {
+//     return true;
+//   }
+// });
+
+// const ans = companyes.filter((company) => company.cotegory === "product based");
+// console.log(ans);
+
+//map function
+// companyes.map((company, index) => {
+//   console.log(company);
+// });
+// const dumy = companyes.map((company, index) => {
+//   return `${company.name}`;//string litral
+// });
+//
+// console.log(dumy);
+
+//sort function
+// const ans = companyes.sort(function (c1, c2) {
+//   if (c1.start > c2.start) {
+//     return 1;
+//   } else {
+//     return -1;
+//   }
+// });
+// console.log(ans);
+
+// const ans = companyes.sort((c1, c2) => (c1.start > c2.start ? 1 : -1));
+// console.log(ans);
+//
+let ages = [88, 40, 15, 18, 19, 25, 22, 23, 28, 27];
+// const age = ages.sort((a, b) => a - b);
+// console.log(age);
+
+//reduce function
+let total = 0;
+for (let i = 0; i < ages.length; i++) {
+  total += ages[i];
+}
+console.log(total);
+
+// const ans = ages.reduce(function (total, age) {
+//   return total + age;
+// });
+// console.log(ans);
+
+const ans = ages.reduce((total, age) => {
+  return total + age;
+});
+console.log(ans);
 //DOM Document object model.
